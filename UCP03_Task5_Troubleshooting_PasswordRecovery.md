@@ -6,7 +6,7 @@
 <!--
 In this task you will see how to recover from a scenario where the password to the built-in UCP admin account has been lost.
 //-->
-このタスクでは、組み込み UCP 管理者アカウントのパスワードを失ってしまった状況をどのように回復するかを見ていきます。
+このタスクでは、組み込みの UCP 管理者アカウントのパスワードを失ってしまった状況をどのように回復するかを見ていきます。
 
 <!--
 If a regular user (not the built-in **admin** account) forgets their password they must contact the UCP admin who can set a new password for them. 
