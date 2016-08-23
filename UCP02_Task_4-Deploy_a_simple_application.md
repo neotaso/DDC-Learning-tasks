@@ -59,7 +59,7 @@ In this step you will use **Docker Compose** to deploy a simple multi-container 
 <!--
 1. SSH into your UCP controller as the built-in **ubuntu** user.
 //-->
-1. 組み込み **ubuntu** ユーザで UCP コントローラに SSH ログインします。
+1. 組み込みの **ubuntu** ユーザで UCP コントローラに SSH ログインします。
 
 <!--
   Your UCP controller is probably `node-0` in your lab.
@@ -216,7 +216,7 @@ The **client bundle** sets up your local machine with the certificates and other
 <!--
 This step is broken up into the following two sub-steps:
 //-->
-この手順は次の 2つの手順に分割できます:
+次の 2つの手順を行います:
 
 <!--
   - Configure your environment to use the Client Bundle
