@@ -532,11 +532,11 @@ This step is broken up into the following two sub-steps:
 
   ```
   javaclient:
-    image: trainingteam/hello-redis:1.0
+    image: dockertrainingja/hello-redis:20160712
     links:
       - redis:redisdb
   redis:
-    image: redis
+    image: redis:3.2
   ```
 
 <!--

@@ -142,13 +142,13 @@ In this step you will deploy a Dockerized web app and apply the "production" lab
 
    ```
 javaclient:
-    image: trainingteam/hello-redis:1.0
+    image: dockertrainingja/hello-redis:20160712
     links:
     - redis:redisdb
     labels:
       com.docker.ucp.access.label: "production"
 redis:
-    image: redis
+    image: redis:3.2
     labels:
       com.docker.ucp.access.label: "production"
    ```

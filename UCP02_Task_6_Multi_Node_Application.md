@@ -81,7 +81,7 @@
        build: results-app
 
      redis01:
-       image: redis:3
+       image: redis:3.2
 
      store:
        image: postgres:9.5
@@ -209,7 +209,7 @@ file should be running pre-built images from a registry. Remember, developers bu
    次の部分を:
    ```
    voting-app:
-     image: docker/example-voting-app-voting-app
+     image: dockertrainingja/voting-app:20160712
      ports:
        - "80"
    ```
@@ -220,7 +220,7 @@ file should be running pre-built images from a registry. Remember, developers bu
    次のように変更します:
    ```
    voting-app:
-     image: docker/example-voting-app-voting-app
+     image: dockertrainingja/voting-app:20160712
      ports:
        - "80:80"
    ```
@@ -305,11 +305,11 @@ This was the `docker-compose.prod.yml` file we used previously
 
 ```
 javaclient:
-  image: trainingteam/hello-redis:1.0
+  image: dockertrainingja/hello-redis:20160712
   links:
     - redis:redisdb
 redis:
-  image: redis
+  image: redis:3.2
 ```
 
 <!--
