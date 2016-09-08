@@ -26,7 +26,7 @@
 2. Clone the application repository into a local folder on your machine.
 3. Remove all existing applications you have deployed on UCP. 
 //-->
-1. https://github.com/docker/swarm-microservice-demo-v1 にアクセスし、これから実行しようとしているアプリケーションがどのようなものか十分に理解します。
+1. https://github.com/docker-training-ja/swarm-microservice-demo-v1 にアクセスし、これから実行しようとしているアプリケーションがどのようなものか十分に理解します。
 2. このアプリケーションのレポジトリをローカルマシンに clone します。
 3. UCP 上にデプロイしたすべての既存のアプリケーションを削除します。
 
@@ -184,7 +184,7 @@ file should be running pre-built images from a registry. Remember, developers bu
 <!--
 2. Take a look at the Compose file at [](https://github.com/nicolaka/voteapp-base/blob/master/docker-compose.yml)https://github.com/nicolaka/voteapp-base/blob/master/docker-compose.yml
 //-->
-2. [](https://github.com/nicolaka/voteapp-base/blob/master/docker-compose.yml)https://github.com/nicolaka/voteapp-base/blob/master/docker-compose.yml の Compose ファイルを見てください。
+2. [](https://github.com/docker-training-ja/voteapp-base/blob/master/docker-compose.yml)https://github.com/docker-training-ja/voteapp-base/blob/master/docker-compose.yml の Compose ファイルを見てください。
 
 <!--
    Compare this to the Compose file in the Voting App repo. What do you notice as the difference?
@@ -196,7 +196,7 @@ file should be running pre-built images from a registry. Remember, developers bu
 //-->
 3. 投票アプリのベースレポジトリをローカルマシンに clone します。
 
-   `$ git clone https://github.com/nicolaka/voteapp-base`
+   `$ git clone https://github.com/docker-training-ja/voteapp-base`
    
 <!--
 4. Open the `docker-compose.yml` file in the `voteapp-base` folder and change the port mapping of the `voting-app` service. Map port 80 in the container to port 80 on the host.

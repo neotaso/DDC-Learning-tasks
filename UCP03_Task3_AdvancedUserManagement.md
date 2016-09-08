@@ -124,10 +124,10 @@ In this step you will deploy a Dockerized web app and apply the "production" lab
 <!--
 4. Clone the https://github.com/johnny-tu/HelloRedis repository from withint the directory that contains Chloe's unzipped client bundle.
 //-->
-4. Chloe の client bundle を unzip したディレトリ内に、https://github.com/johnny-tu/HelloRedis レポジトリを clone します。
+4. Chloe の client bundle を unzip したディレトリ内に、https://github.com/docker-training-ja/HelloRedis レポジトリを clone します。
 
   ```
-  git clone https://github.com/johnny-tu/HelloRedis
+  git clone https://github.com/docker-training-ja/HelloRedis
   ```
 
 <!--

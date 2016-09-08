@@ -69,10 +69,10 @@ In this step you will use **Docker Compose** to deploy a simple multi-container 
 <!--
 2. Use `git` to clone the application repository from https://github.com/johnny-tu/HelloRedis.git
 //-->
-2. `git` コマンドを使って https://github.com/johnny-tu/HelloRedis.git からアプリケーションのレポジトリを clone します。
+2. `git` コマンドを使って https://github.com/docker-training-ja/HelloRedis.git からアプリケーションのレポジトリを clone します。
 
    ```bash
-   $ git clone https://github.com/johnny-tu/HelloRedis.git
+   $ git clone https://github.com/docker-training-ja/HelloRedis.git
    Cloning into 'HelloRedis'...
    remote: Counting objects: 45, done.
    remote: Total 45 (delta 0), reused 0 (delta 0), pack-reused 45
@@ -479,7 +479,7 @@ This step is broken up into the following two sub-steps:
 8. 任意の他のディレクトリに **HelloRedis** レポジトリを clone します。
 
   ```
-  > git clone https://github.com/johnny-tu/HelloRedis.git
+  > git clone https://github.com/docker-training-ja/HelloRedis.git
   ```
 
 <!--
@@ -603,7 +603,7 @@ For the following section, use what you have learnt just now and complete the st
 3. Deploy the `FoodTrucks` application into UCP. Remember to use the Client Bundle
 4. View the application in your web browser
 //-->
-1. 初めてのアプリケーションのデプロイは済んでいますね。他の例を試してみましょう。こちらです: https://github.com/prakhar1989/FoodTrucks
+1. 初めてのアプリケーションのデプロイは済んでいますね。他の例を試してみましょう。こちらです: https://github.com/docker-training-ja/FoodTrucks
 2. `FoodTrucks` レポをローカルに clone します。
 3. `FoodTrucks` アプリケーションを UCP にデプロイします。Client Bundle を使うのを忘れないでください。
 4. ブラウザでアプリケーションを見てください。
