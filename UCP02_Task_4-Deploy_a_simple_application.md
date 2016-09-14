@@ -542,7 +542,7 @@ This step is broken up into the following two sub-steps:
 <!--
   Notice that there are no `build` instructions in this file. All images referenced are pre-built images that are on Docker Hub - `trainingteam/hello-redis:1.0` and `redis`.
 //-->
-  このファイルには `build` がないことに注目してください。Docker Hub 上の `trainingteam/hello-redis:1.0` と `redis` という、ビルド済みイメージを使う形になっています。
+  このファイルには `build` がないことに注目してください。Docker Hub 上の `dockertrainingja/hello-redis:20160712` と `redis:3.2` という、ビルド済みイメージを使う形になっています。
 
 <!--
 12. Start the production version of the application with the following command (be sure to use the compose file with **prod** in its name).
