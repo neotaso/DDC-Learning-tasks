@@ -27,7 +27,7 @@
 3. Remove all existing applications you have deployed on UCP. 
 //-->
 1. https://github.com/docker-training-ja/swarm-microservice-demo-v1 にアクセスし、これから実行しようとしているアプリケーションがどのようなものか十分に理解します。
-2. このアプリケーションのレポジトリをローカルマシンに clone します。
+2. このアプリケーションのレポジトリをワークステーションに clone します。
 3. UCP 上にデプロイしたすべての既存のアプリケーションを削除します。
 
 <!--
@@ -194,7 +194,7 @@ file should be running pre-built images from a registry. Remember, developers bu
 <!--
 3. Clone the Voteapp Base repository into a folder on your PC / Mac
 //-->
-3. 投票アプリのベースレポジトリをローカルマシンに clone します。
+3. 投票アプリのベースレポジトリをワークステーションに clone します。
 
    `$ git clone https://github.com/docker-training-ja/voteapp-base`
    

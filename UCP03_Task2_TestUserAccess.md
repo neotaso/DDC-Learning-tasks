@@ -197,12 +197,12 @@ In this step you will create and download a **client bundle** for the **johnfull
 <!--
   This will download the client bundle to your local machine as a zipped archive file.
 //-->
-  zip アーカイブファイルの client bundle をローカルマシンにダウンロードするはずです。
+  zip アーカイブファイルの client bundle をダウンロードするはずです。
 
 <!--
 3. Unzip the contents of the archive file and open a command prompt to the location of the extracted contents. On a Windows machine this is likely to be C:\Users\your-user\Downloads\ucp-bundle-johnfull.
 //-->
-3. このアーカイブファイルを unzip し、展開したディレクトリでコマンドプロンプトを開きます。Windows マシンでは C:\Users\your-user\Downloads\ucp-bundle-johnfull のような形になるはずです。
+3. このアーカイブファイルをワークステーションに scp して unzip し、展開したディレクトリでコマンドプロンプトを開きます。Windows マシンでは C:\Users\your-user\Downloads\ucp-bundle-johnfull のような形になるはずです。
 
 <!--
   The examples in this tutorial are using Git Bash. Feel free to use a command line tool of your choice.

@@ -33,7 +33,7 @@
    Then click on **Create**
 //-->
 3. Create Application ウィンドウにて、アプリケーションに例えば「FoodTrucks」といった名前をつけて、FoodTruck Docker Compose ファイルをアップロードします。
-   FoodTruck アプリケーションのディレクトリの docker-compose.yml ファイルの内容をコピーアンドペーストするか、ローカルマシンからファイルを選択してアップロードします。
+   FoodTruck アプリケーションのディレクトリの docker-compose.yml ファイルの内容をコピーアンドペーストするか、ファイルを選択してアップロードします。
    そして **Create** をクリックします。
    
    ![](images/ucp02_t5_create_application_screen.PNG)

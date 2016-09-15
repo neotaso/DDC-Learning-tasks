@@ -29,14 +29,9 @@ This task will walk you through the steps of deploying simple applications to Do
 
 <!--
 ## Pre-requisites
-//-->
-## 前提条件
 
-<!--
 - You must have [Docker Toolbox](https://www.docker.com/products/docker-toolbox) installed on your local machine
 //-->
-
-- [Docker Toolbox](https://www.docker.com/products/docker-toolbox) をローカルマシンにインストール済であること
 
 <!--
 ## Step 1 - Deploy an application using Docker Compose
@@ -211,7 +206,7 @@ Manually logging into (SSH) the UCP node to run `docker-compose` to deploy your 
 <!--
 The **client bundle** sets up your local machine with the certificates and other settings needed for you to issue `docker` and `docker-compose` commands to UCP.
 //-->
-**client bundle** は、UCP に対して `docker` コマンドと `docker-compose` コマンドを実行するのに必要な証明書や設定をローカルマシンに設定します。
+**client bundle** は、UCP に対して `docker` コマンドと `docker-compose` コマンドを実行するのに必要な証明書や設定をワークステーションに設定します。
 
 <!--
 This step is broken up into the following two sub-steps:
@@ -409,7 +404,7 @@ This step is broken up into the following two sub-steps:
 <!--
 7. Now run `docker info` to verify that your local environment has been configured correctly. You should see the UCP controller and nodes listed as shown below.
 //-->
-7. ローカル環境が正しく設定されているか確認するために `docker info` を実行します。UCP コントローラとノードが次のように表示されます。
+7. ワークステーションが正しく設定されているか確認するために `docker info` を実行します。UCP コントローラとノードが次のように表示されます。
 
    ```
    C:\Docker\ucp_client_bundles\ucp-bundle-admin>docker info
@@ -585,7 +580,7 @@ This step is broken up into the following two sub-steps:
 <!--
 You now know how to deploy Docker Compose applications from your local machine using **Client Bundles**.
 //-->
-これで **Client Bundles** を使ってローカルマシンから Docker Compose アプリケーションをどのようにデプロイするか理解できたと思います。
+これで **Client Bundles** を使ってワークステーションから Docker Compose アプリケーションをどのようにデプロイするか理解できたと思います。
  
 <!--
 ## Step 3 - Deploy another application   
@@ -604,7 +599,7 @@ For the following section, use what you have learnt just now and complete the st
 4. View the application in your web browser
 //-->
 1. 初めてのアプリケーションのデプロイは済んでいますね。他の例を試してみましょう。こちらです: https://github.com/docker-training-ja/FoodTrucks
-2. `FoodTrucks` レポをローカルに clone します。
+2. `FoodTrucks` レポをワークステーションに clone します。
 3. `FoodTrucks` アプリケーションを UCP にデプロイします。Client Bundle を使うのを忘れないでください。
 4. ブラウザでアプリケーションを見てください。
 
