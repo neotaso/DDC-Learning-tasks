@@ -51,9 +51,7 @@
    Creating swarmmicroservicedemov1_web-vote-app_1
    unable to find a node that satisfies node==frontend01
    ```
-<!--
-3. Try and identify the cause of the error and edit the `docker-compose.yml` file to fix it.
-//-->
+<!-- 3. Try and identify the cause of the error and edit the `docker-compose.yml` file to fix it.  //-->
 3. エラーの原因を特定して `docker-compose.yml` ファイルを修正しなければいけません。
 
 <!--
