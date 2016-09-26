@@ -101,7 +101,7 @@ Docker UCP はパーミッションとアクセスコントロールを実装す
 <!--
   When you click the **Run Container** button, the deployment will fail. This is because members of the Engineering team only have *View Only* access to resources with the **view** label. They cannot create containers with the **view** label.
 //-->
-  **Run Container** ボタンをクリックすると、デプロイに失敗するはずです。なぜなら、Engineering チームのメンバーは **view** ラベルのついたリソースに対しての *View Only* アクセスしか持っていないからです。 **view** ラベルのついたコンテナの作成はできません。
+**Run Container** ボタンをクリックすると、デプロイに失敗するはずです。なぜなら、Engineering チームのメンバーは **view** ラベルのついたリソースに対しての *View Only* アクセスしか持っていないからです。 **view** ラベルのついたコンテナの作成はできません。
 
 <!--
   ![](http://i.imgur.com/Bn4gI5T.png)
