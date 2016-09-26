@@ -446,7 +446,7 @@ From the previous 4 steps we can see that the user **johnfull** has full access 
 <!--
     This is because Tracey has the **No Access** default permission. However, because Tracey is a members of the Engineering team, she gets access to all of the tagged resources that the Engineering team has access to.
 //-->
-    なぜなら Tracey は **No Access** デフォルトパーミッションを持っているからです。しかし、Tracey は Engineering チームのメンバーなので、彼女は Engineering チームがアクセスできるラベルつきリソースのすべてにアクセスできます。
+   なぜなら Tracey は **No Access** デフォルトパーミッションを持っているからです。しかし、Tracey は Engineering チームのメンバーなので、彼女は Engineering チームがアクセスできるラベルつきリソースのすべてにアクセスできます。
 
 <!--
 13. Click the **Containers** link and notice that Tracey can see the three containers that have the **view** label attached to them.
